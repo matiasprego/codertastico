@@ -257,6 +257,10 @@ footer {
   background: linear-gradient(180deg, #082898 0%, #0e32ab 46%, black 100%);
 }
 
+.portfolio.single #hero {
+  background: black;
+}
+
 .listadoTrabajos {
   margin: 0;
   padding: 0;
