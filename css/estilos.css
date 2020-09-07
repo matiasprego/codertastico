@@ -204,7 +204,7 @@ footer {
   margin-top: -25vh;
 }
 
-.listadoServicios li h3, .listadoServicios li p {
+.owl-carousel h3, .owl-carousel p {
   padding: 10px;
 }
 
@@ -241,14 +241,6 @@ footer {
 }
 #servicios table td {
   padding: 10px 30px;
-}
-
-.listadoServicios {
-  margin: 0;
-  padding: 0;
-}
-.listadoServicios li {
-  list-style: none;
 }
 
 /********** TRABAJOS ********/
@@ -497,20 +489,6 @@ form .btn {
     padding-left: 20px;
   }
 
-  .listadoServicios {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 100%;
-  }
-  .listadoServicios li {
-    display: flex;
-    flex-direction: column;
-    flex-basis: 100%;
-    flex: 1 50%;
-    padding: 10px;
-  }
-
   .footer__menu {
     display: flex;
     flex-direction: row;
@@ -563,15 +541,8 @@ form .btn {
   }
 }
 @media only screen and (min-width: 993px) {
-  .listadoServicios {
-    margin: 0;
-    padding: 0;
-    width: 1700px;
-    display: flex;
-  }
-  .listadoServicios li {
+  .owl-carousel div.owl-item {
     background: #FFF;
-    width: 300px;
     margin-right: 20px;
     color: #000;
   }
