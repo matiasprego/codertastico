@@ -85,6 +85,10 @@ header {
     width:100%;
     z-index:1000;
 
+    &.scrolling {
+        background-color:rgba(0, 0, 0, 0.6);
+    }
+
     .container {
         padding:10px 0;
     }
@@ -616,5 +620,11 @@ form .btn {
     .listadoManifiesto li {
         display: flex;
         flex: 1 100%;
+    }
+    .home #hero h1 {
+        font-size:4em;
+    }
+    .btn {
+        margin-bottom:20px;
     }
 }

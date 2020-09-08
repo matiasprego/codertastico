@@ -15,7 +15,7 @@
 </head>
 <body class="home">
 
-<header>
+<header class="header">
     <div class="container">
         <nav class="navbar navbar-expand-lg navbar-dark header__menu">
             <a class="navbar-brand header__logo" href="index.html"><img src="images/logo-amarillo.png" alt="Fantasticö" title="Fantasticö"></a>
@@ -39,14 +39,14 @@
     <div class="container">
         <h1>Hola, somos <span class="yellow">Fantasticö</span></h1>
         <h2>Unimos teconología con diseño para resolver problemas</h2>
-        <a href="#" class="btn">Conocé lo que hacemos</a><a href="#" class="btn">Boton 2</a>
+        <a href="servicios.html" class="btn">Conocé lo que hacemos</a><a href="contacto.html" class="btn">Comencemos un proyecto</a>
     </div>
 </section>
     
 <section id="portfolio">
     <div class="container">
         <ul class="listadoTrabajos">
-            <li><a href="proyects/texas.html"><img src="images/trabajo3.jpg" alt="Texas United" title="Texas United" /></a></li>
+            <li><a href="proyectos/texas.html"><img src="images/trabajo3.jpg" alt="Texas United" title="Texas United" /></a></li>
             <li><a href="proyectos/padbol.html"><img src="images/trabajo2.jpg" alt="Padbol" title="Padbol" /></a></li>
             <li><a href="proyectos/kaizen.html"><img src="images/trabajo1.jpg" alt="Kaizen" title="Kaizen" /></a></li>
             <li><a href="proyectos/smartix.html"><img src="images/trabajo4.png" alt="Smartix" title="Smartix" /></a></li>
@@ -137,6 +137,15 @@
                 }
             }
         })
+        $(window).scroll(function() {    
+        var scroll = $(window).scrollTop();
+
+        if (scroll >= 100) {
+            $(".header").addClass("scrolling");
+        } else {
+            $(".header").removeClass("scrolling");
+        }
+    });
     </script>
 </body>
 </html>
