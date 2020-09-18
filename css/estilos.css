@@ -152,6 +152,7 @@ header .container {
 }
 .btn:hover {
   border-color: #ffcc00;
+  color: #ffcc00;
 }
 
 .btn.black {
@@ -249,11 +250,20 @@ footer {
 /********** TRABAJOS ********/
 .portfolio #hero {
   background: #082898;
-  background: linear-gradient(180deg, #082898 0%, #0e32ab 46%, black 100%);
+  background-image: url(../images/fondo-web.png);
+  background-repeat: repeat;
+  background-position: center;
 }
 
 .portfolio.single #hero {
   background: black;
+}
+
+.portfolio #listado {
+  margin-top: -12vh;
+}
+.portfolio #listado img {
+  margin-bottom: 20px;
 }
 
 .listadoTrabajos {
@@ -267,6 +277,7 @@ footer {
   width: 100%;
   transition: all 0.3s;
   transition-timing-function: ease-in;
+  min-height: 300px;
 }
 .listadoTrabajos li a {
   color: white;
@@ -276,6 +287,11 @@ footer {
   font-size: 20px;
   font-family: "Montserrat", sans-serif;
   margin: 10px;
+  display: block;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 300px;
 }
 .listadoTrabajos li img {
   max-width: 100%;
