@@ -347,6 +347,15 @@ footer {
   list-style: none;
 }
 
+#empresas .col-md-2 {
+  text-align: center;
+  margin: 20px 0;
+}
+#empresas img {
+  max-width: 70%;
+  filter: invert(100);
+}
+
 /********** MANIFIESTO **********/
 .manifiesto #hero {
   background-color: #0936d1;
