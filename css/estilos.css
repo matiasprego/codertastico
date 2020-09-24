@@ -307,7 +307,7 @@ footer {
 /********** NOSOTROS **********/
 #hero {
   padding-top: 20vh;
-  padding-bottom: 20vh;
+  padding-bottom: 12vh;
   text-align: left;
   background-repeat: no-repeat;
   background-size: cover;
@@ -496,7 +496,7 @@ form .btn {
 }
 @media only screen and (max-width: 992px) {
   .header__menu ul {
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.8);
   }
 
   .navbar-nav .nav-link {
