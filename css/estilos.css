@@ -253,6 +253,7 @@ footer {
   background-image: url(../images/fondo-web.png);
   background-repeat: repeat;
   background-position: center;
+  padding-bottom: 20vh;
 }
 
 .portfolio.single #hero {
@@ -640,11 +641,32 @@ form .btn {
   }
 
   .portfolio #listado {
-    margin-bottom: -6vh;
+    margin-bottom: -12vh;
+  }
+
+  .portfolio footer {
+    padding-top: 16vh;
   }
 
   footer {
     padding-top: 9vh;
+  }
+
+  form .col-sm-6 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  form .col-sm-6:first-child {
+    margin-bottom: 10px;
+  }
+
+  form .col-sm-4, form .col-sm-8, form .col-sm-12 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .listadoTrabajos li a {
+    margin: 0px 0px 20px 0px;
   }
 }
 
